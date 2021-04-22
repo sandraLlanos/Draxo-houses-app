@@ -1,0 +1,54 @@
+
+body {
+  color: #2c3e50;
+  background: #ecf0f1;
+  padding: 5%;
+  box-sizing: border-box;
+}
+span{
+  font-weight:normal;
+}
+.card {
+  max-width: 320px;
+  max-height: 320px;
+  margin: 10px;
+  box-shadow: 3px 2px 20px 3px #bebaba;
+  border-radius: 4px;
+  width: 35%;
+}
+.card:hover{
+  box-shadow: 3px 2px 20px 3px #242e3980;
+}
+.card img {
+  object-fit: cover;
+}
+.card__title{
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.MuiAccordionDetails-root {
+  justify-content: center;
+}
+.MuiAccordionSummary-root:hover {
+  background: #242e39;
+}
+.MuiSvgIcon-root {
+  color: white;
+}
+.MuiCollapse-wrapperInner {
+  padding: 5%;
+}
+@media screen and (max-width: 1024px) {
+  .MuiAccordionDetails-root {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    width: 100%;
+  }
+}
